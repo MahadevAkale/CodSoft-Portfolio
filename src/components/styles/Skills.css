@@ -1,0 +1,22 @@
+.skills {
+  font-family: Arial, sans-serif;
+}
+
+.skills h2 {
+  color: #130707;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px; 
+}
+
+.skills li::before {
+  content: "• "; /* add a bullet point before each point */
+}
+
+.skills > ul > li {
+  margin-bottom: 0px; /* add extra space between main content sections */
+}

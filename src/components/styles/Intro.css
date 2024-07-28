@@ -1,0 +1,33 @@
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  .intro-text {
+    flex-basis: 50%;
+    margin-right: 20px;
+  }
+  
+  .intro-image {
+    flex-basis: 50%;
+    margin-left: 20px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .buttons button {
+    background-color: #110c0c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #1e1414;
+  }
